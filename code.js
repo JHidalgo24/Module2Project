@@ -34,6 +34,7 @@ function colorChange(event) {
         }
                 $("p").append("<br>");
     }
+    //progress bar
     for (let i = 0; i<BAR_WIDTH; i++){
         $(".bar").append("<span class='barGreen'></span>")
     }
@@ -55,7 +56,7 @@ function boneFunction(event) {
     for( i=0; i < percentAdder; i++){
         $(".barGreen:first").addClass("barRed").removeClass("barGreen");
     }
-    if(percent >= 100 || count === gridSize){
+    if(count === gridSize){
         $("#output2").text("You Win")
         for( i=0; i < (gridSize**2)-gridSize; i++){
             $(".empty:first").replaceWith("<div class='unClickable'>No Bone</div>");
