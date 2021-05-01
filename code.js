@@ -51,6 +51,7 @@ function boneFunction(event) {
     for( i=0; i < percentAdder; i++){
         $(".barGreen:first").addClass("barRed").removeClass("barGreen");
     }
+    $(".bonesLeft").text(5-count +" Bones Left")
     if(count === gridSize){
         $("#output2").text("You Win")
         for( i=0; i < (gridSize**2)-gridSize; i++){

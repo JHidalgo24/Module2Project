@@ -28,7 +28,7 @@ span{
     display: inline-block;
     width: 100px;
     height: 100px;
-    background-color: sandybrown;
+    background-color: green;
     border: 5px black dot-dash;
 }
 
@@ -36,7 +36,7 @@ span{
     display: inline-block;
     width: 100px;
     height: 100px;
-    background-color: sandybrown;
+    background-color: forestgreen;
     border: 5px black dot-dash;
     margin: 2px;
 }
@@ -59,7 +59,7 @@ span{
     display: inline-block;
     width: 100px;
     height: 100px;
-    background-color: sandybrown;
+    background-color: forestgreen;
     border: 5px black dot-dash;
     margin: 2px;
 }
