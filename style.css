@@ -9,6 +9,15 @@ button{
     text-align: center;
 
 }
+#dog{
+    display: none;
+}
+#winning{
+    display: none;
+}
+.bonesLeft{
+    color: black;
+}
 h1{
 
     color: azure;
@@ -31,7 +40,14 @@ span{
     background-color: green;
     border: 5px black dot-dash;
 }
-
+form{
+    border-radius: 30px;
+    margin: 0 auto;
+    background: rosybrown;
+    width: 600px;
+    height: auto;
+    padding-top: 30px;
+}
 .empty{
     display: inline-block;
     width: 100px;
