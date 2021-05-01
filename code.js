@@ -2,6 +2,7 @@ $(document).ready(function () {
     colorChange();
     $(".empty").on("click", emptyFunction)
     $(".bone").on("click",boneFunction)
+    $(".bonesLeft").text(5-count +" Bones Left")
 
 });
 
