@@ -49,10 +49,6 @@ function boneFunction(event) {
     percent += percentAdder;
     $("#output").text(percent+ " percent")
     $("#outputPercent").text(percentAdder+ " percent Change")
-    if (count === gridSize){
-        $("#output2").text("You win :)")
-    }
-
     for( i=0; i < percentAdder; i++){
         $(".barGreen:first").addClass("barRed").removeClass("barGreen");
     }
@@ -77,6 +73,7 @@ function emptyFunction(event) {
         $(".barGreen:first").addClass("barRed").removeClass("barGreen");
     }
     if(percent >= 100 ){
+        $("#output").text(100+" percent")
         $("#output2").text("You Lose")
         for( i=0; i < (gridSize**2)-gridSize; i++){
             $(".empty:first").replaceWith("<div class='unClickable'>No Bone</div>");

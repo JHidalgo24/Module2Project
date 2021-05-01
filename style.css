@@ -1,5 +1,6 @@
 body{
     background-image: url("images/grass.jpg");
+    background-size: 100%;
     font-family: Arial, Georgia, serif;
     text-align: center;
 }
@@ -9,14 +10,14 @@ button{
 
 }
 h1{
+    width: inherit;
     font-family: cursive;
     font-size: 50px;
     text-align: center;
 }
 #grid{
     margin: 0 auto;
-    background: white;
-    width: 600px;
+    width: 100%;
     border-radius: 10px;
 }
 span{
@@ -41,7 +42,6 @@ span{
     height: 10px;
     background-color: lawngreen;
     margin: 0 auto;
-    border-right: 0;
 }
 .barRed{
     display: inline-block;
@@ -49,7 +49,7 @@ span{
     height: 10px;
     background-color: red;
     margin: 0 auto;
-    border-right: 0;
+
 }
 .bone {
     display: inline-block;
