@@ -22,9 +22,8 @@ function colorChange(event) {
     val = Math.round(val);
     for (let row = 0; row < ROW_SIZE; row++) {
         for (let col = 0; col < COL_SIZE; col++) {
-        val = Math.random();
-        val = Math.round(val);
-            if(val === 1 && bone <gridSize){
+        val = Math.floor(Math.random()*11);;
+            if(val > 5 && bone < gridSize){
                 $("p").append("<span class='bone'>Diggable</span>");
                 bone++;
             }
