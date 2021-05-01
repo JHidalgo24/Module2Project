@@ -1,0 +1,78 @@
+body{
+    background-image: url("images/grass.jpg");
+    font-family: Arial, Georgia, serif;
+    text-align: center;
+}
+
+button{
+    text-align: center;
+
+}
+h1{
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+}
+#grid{
+    margin: 0 auto;
+    background: white;
+    width: 600px;
+    border-radius: 10px;
+}
+span{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: sandybrown;
+    border: 5px black dot-dash;
+}
+
+.empty{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: sandybrown;
+    border: 5px black dot-dash;
+    margin: 2px;
+}
+.barGreen{
+    display: inline-block;
+    width: 5px;
+    height: 10px;
+    background-color: lawngreen;
+    margin: 0 auto;
+    border-right: 0;
+}
+.barRed{
+    display: inline-block;
+    width: 5px;
+    height: 10px;
+    background-color: red;
+    margin: 0 auto;
+    border-right: 0;
+}
+.bone {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: sandybrown;
+    border: 5px black dot-dash;
+    margin: 2px;
+}
+.unClickable{
+     display: inline-block;
+     width: 100px;
+     height: 100px;
+     background-color: saddlebrown;
+    border: 5px black dot-dash;
+     margin: 2px;
+}
+.correct{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url("images/bone (2).png");
+    background-repeat: no-repeat;
+    border: 5px black dot-dash;
+    margin: 2px;
+}
